@@ -54,7 +54,7 @@ This project utilises the following open-source projects:
 
 - [Vide](https://github.com/littensy/vide) — Reactive UI framework for Roblox
 - [Rojo](https://github.com/rojo-rbx/rojo) — Project management and syncing
-
+- [Rokit](https://github.com/rojo-rbx/rokit) — Package Manager
 ## Development Status
 
 This project is under active development. Some areas may be refactored or improved over time. If you encounter issues or have suggestions, please open an issue.

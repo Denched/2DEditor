@@ -1,0 +1,14 @@
+{
+  "name": "2D Editor",
+  "tree": {
+    "$className": "DataModel",
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "2DEngineEditor": {
+        "$className": "Folder",
+        "$path": "src"
+      }
+    }
+  }
+}

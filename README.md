@@ -1,0 +1,62 @@
+<div align="center">
+  <img src="./assets/logo.png" width="150" height="150" alt="2DEditor Logo" />
+  <h1><b>2DEditor</b></h1>
+  <p>
+    A Roblox Studio plugin created to assist in developing 2D games on Roblox
+  </p>
+</div>
+
+<div align="center">
+  <img src="./assets/demo.mp3" alt="2DEditor Demo" width="800" />
+</div>
+
+## Getting Started
+
+### Install the Plugin
+
+1. Open the [2DEditor Plugin Page](<!-- PLUGIN_LINK_PLACEHOLDER -->)
+2. Click **Get Plugin** to install it in Roblox Studio
+3. Open Roblox Studio and find 2DEditor in your Plugins tab
+
+### Development Setup
+
+If you want to contribute or explore the source code:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/2DEditor.git
+   cd 2DEditor
+   ```
+
+2. **Install Rokit** (tool manager)
+   ```bash
+   # If you have Aftman installed
+   aftman install rokit
+   rokit install
+
+   # Or install Rokit directly from https://github.com/rojo-rbx/rokit
+   ```
+
+3. **Start the Rojo server**
+   ```bash
+   rojo serve
+   ```
+
+4. **Connect in Roblox Studio**
+   - Open Roblox Studio
+   - Install the Rojo plugin if you haven't
+   - Click **Connect** in the Rojo plugin panel
+
+
+## Credits
+
+This project utilises the following open-source projects:
+
+- [Vide](https://github.com/littensy/vide) — Reactive UI framework for Roblox
+- [Rojo](https://github.com/rojo-rbx/rojo) — Project management and syncing
+- [Wally](https://github.com/UpliftGames/wally) — Package manager for Roblox
+
+## Development Status
+
+This project is under active development. Some areas may be refactored or improved over time. If you encounter issues or have suggestions, please open an issue.
+

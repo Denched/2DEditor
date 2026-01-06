@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rokit
+        uses: rojo-rbx/setup-rokit@v1
+        with:
+          version: 0.1.0
+
+      - name: Install Dependencies
+        run: |
+          rokit install
+
+      - name: Rojo Build Check
+        run: rojo build -o check.rbxlx

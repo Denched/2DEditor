@@ -17,8 +17,14 @@ jobs:
           curl -sSf https://raw.githubusercontent.com/rojo-rbx/rokit/main/scripts/install.sh | bash
           echo "$HOME/.rokit/bin" >> $GITHUB_PATH
 
-      - name: Install Dependencies
-        run: rokit install
+      - name: Trust & Install Dependencies
+        run: |
+          rokit trust rojo-rbx/rojo
+          rokit trust JohnnyMorganz/StyLua
+          rokit trust Kampfkarren/selene
+          rokit trust JohnnyMorganz/luau-lsp
+          
+          rokit install
 
       - name: Rojo Build Check
         run: rojo build -o check.rbxlx

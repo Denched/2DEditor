@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <img src="./assets/demo.mp3" alt="2DEditor Demo" width="800" />
+  <img src="./assets/demo.mp4" alt="2DEditor Demo" width="800" />
 </div>
 
 ## Getting Started

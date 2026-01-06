@@ -7,14 +7,14 @@
 </div>
 
 <div align="center">
-  <img src="./assets/demo.mp4" alt="2DEditor Demo" width="800" />
+  <video src="https://github.com/user-attachments/assets/fba499aa-d1a4-480d-bccf-69882a3cdbde" width="800" controls></video>
 </div>
 
 ## Getting Started
 
 ### Install the Plugin
 
-1. Open the [2DEditor Plugin Page](<!-- PLUGIN_LINK_PLACEHOLDER -->)
+1. Open the [2DEditor Plugin Page](https://create.roblox.com/store/asset/76283555630700/2DEditor)
 2. Click **Get Plugin** to install it in Roblox Studio
 3. Open Roblox Studio and find 2DEditor in your Plugins tab
 

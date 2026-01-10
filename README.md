@@ -24,7 +24,7 @@ If you want to contribute or explore the source code:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/2DEditor.git
+   git clone https://github.com/Denched/2DEditor.git
    cd 2DEditor
    ```
 

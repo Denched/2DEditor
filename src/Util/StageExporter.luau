@@ -275,7 +275,7 @@ function StageExporter.importFromJSON(jsonString: string)
 						),
 						halfExtents = vector.create(physicsData.halfExtents.x, physicsData.halfExtents.y, 0),
 						rotation = physicsData.rotation or 0,
-						color = Color3.fromRGB(255, 0, 0), -- Default red for visibility
+						color = Color3.fromRGB(255, 127, 127), --Slightly lighter for better contrast
 					}
 					table.insert(entity.physicsObjects, po)
 				end
